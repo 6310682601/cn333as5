@@ -113,7 +113,7 @@ fun BooksScreen(viewModel: MainViewModel) {
 //    ) {
 //        if (books.isNotEmpty()) {
 //            BooksList(
-//                books = books,
+//                books = (books.sortedBy{it.name}),
 //                onBookCheckedChange = {
 //                    viewModel.onBookCheckedChange(it)
 //                },
